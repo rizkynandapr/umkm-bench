@@ -4,8 +4,8 @@ A small benchmark that asks one question: what happens to an LLM customer servic
 
 I build WhatsApp bots for small Indonesian businesses (UMKM). The messages look like "kak arabika yg setengah kilo ready gk?", not "Apakah Arabika Merapi 500 gram masih tersedia?". This repo holds the data, the scorer and the Kaggle tasks I used to measure the difference.
 
-The write up with all the results is on DEV: [[DEV ARTICLE LINK]]
-The Kaggle benchmark is here: [[KAGGLE BENCHMARK LINK]]
+The write up with all the results is on DEV: https://dev.to/rizkynandapr/umkm-bench-i-tested-8-llms-on-how-indonesians-really-text-online-shops-14c6
+The Kaggle benchmark is here: https://www.kaggle.com/benchmarks/rizkynandapraditia/umkm-bench
 
 ## What's in it
 
