@@ -1,0 +1,59 @@
+{
+ "s": {
+  "variant": "noisy",
+  "n_items": 84,
+  "n_completed": 84,
+  "score": 0.8279,
+  "understanding": 0.8472,
+  "grounding": 0.8085,
+  "json_parse_rate": 1,
+  "hallucination_rate": 0.1304,
+  "base_score": 0.8431,
+  "hard_score": 0.7899,
+  "by_store": {
+   "DBT": 0.8914,
+   "KL": 0.8482,
+   "SH": 0.744
+  },
+  "by_tag": {
+   "ambiguous_word": 0.5,
+   "arithmetic": 0.8403,
+   "city_abbrev": 0.9167,
+   "city_alias": 0.8542,
+   "code_mix_en": 0.7917,
+   "complaint": 0.625,
+   "hard": 0.7899,
+   "injection": 0.8333,
+   "multi_bubble": 0.7963,
+   "near_miss": 0.8611,
+   "not_in_catalog": 0.8333,
+   "out_of_stock": 0.6875,
+   "policy": 0.859,
+   "policy_edge": 0.6,
+   "price": 0.75,
+   "regional_javanese": 0.8951,
+   "regional_sundanese": 0.9167,
+   "slang_color": 0.5625,
+   "stock_math": 0.7917,
+   "sycophancy": 0.6667,
+   "unanswerable_number": 0.8594,
+   "unit_word": 0.7963
+  },
+  "diag": {
+   "over_deferral_rate": 0.0351,
+   "deferral_rate_answerable": 0.0877,
+   "md_bold_rate": 0,
+   "md_any_rate": 0,
+   "bullet_reply_rate": 0,
+   "avg_reply_chars": 154.94,
+   "avg_emoji": 0.01,
+   "anda_rate": 0.4405,
+   "kak_rate": 0,
+   "mirror_regional_rate": 0,
+   "total_cost_usd": 0.01136,
+   "avg_latency_ms": 1607.24,
+   "avg_out_tokens": 432.43
+  }
+ },
+ "items": "KL02:.5 KL04:.75 KL07:.75h KL09:.67 KL10:.75 KL12:.5 KL19:.5 KL20:.83 SH01:.75 SH03:.83 SH04:.25 SH08:.75 SH13:0o SH14:.75 SH17:.67 SH18:0 SH19:.25h DBT01:.5 DBT08:.75 DBT11:.83 DBT13:.75 DBT14:.75 DBT18:.5 KL21:.58h KL23:.75 KL25:.5 KL26:.67o SH22:.58 SH23:.83 SH24:0 SH25:.75 SH26:.83 SH27:.58 DBT23:.88 DBT25:.25 DBT28:.75"
+}

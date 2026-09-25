@@ -1,0 +1,39 @@
+{
+ "s": {
+  "variant": "noguard",
+  "n_items": 27,
+  "n_completed": 27,
+  "score": 0.9815,
+  "understanding": 1,
+  "grounding": 0.963,
+  "json_parse_rate": 1,
+  "hallucination_rate": 0.087,
+  "base_score": 0.9706,
+  "hard_score": 1,
+  "by_store": {
+   "DBT": 1,
+   "KL": 0.9722,
+   "SH": 0.9722
+  },
+  "by_tag": {
+   "city_abbrev": 0.9583,
+   "unanswerable_number": 0.9688
+  },
+  "diag": {
+   "over_deferral_rate": 0,
+   "deferral_rate_answerable": 0,
+   "md_bold_rate": 0,
+   "md_any_rate": 0,
+   "bullet_reply_rate": 0,
+   "avg_reply_chars": 160.85,
+   "avg_emoji": 0.48,
+   "anda_rate": 0,
+   "kak_rate": 0.9259,
+   "mirror_regional_rate": 0,
+   "total_cost_usd": 0.02221,
+   "avg_latency_ms": 24732.93,
+   "avg_out_tokens": 1150.81
+  }
+ },
+ "items": "KL16:.75h SH11:.75h"
+}

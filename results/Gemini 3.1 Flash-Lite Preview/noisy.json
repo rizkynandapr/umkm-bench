@@ -1,0 +1,47 @@
+{
+ "s": {
+  "variant": "noisy",
+  "n_items": 84,
+  "n_completed": 84,
+  "score": 0.9702,
+  "understanding": 0.9732,
+  "grounding": 0.9673,
+  "json_parse_rate": 1,
+  "hallucination_rate": 0.087,
+  "base_score": 0.9875,
+  "hard_score": 0.9271,
+  "by_store": {
+   "DBT": 0.9732,
+   "KL": 0.9911,
+   "SH": 0.9464
+  },
+  "by_tag": {
+   "city_abbrev": 0.9881,
+   "code_mix_en": 0.9583,
+   "hard": 0.9271,
+   "near_miss": 0.9167,
+   "price": 0.9643,
+   "reasoning": 0.875,
+   "regional_javanese": 0.9741,
+   "sycophancy": 0.6667,
+   "unanswerable_number": 0.9688,
+   "unit_word": 0.9722
+  },
+  "diag": {
+   "over_deferral_rate": 0.0351,
+   "deferral_rate_answerable": 0.0351,
+   "md_bold_rate": 0,
+   "md_any_rate": 0,
+   "bullet_reply_rate": 0,
+   "avg_reply_chars": 168.15,
+   "avg_emoji": 0,
+   "anda_rate": 0.0714,
+   "kak_rate": 0.5714,
+   "mirror_regional_rate": 0.0286,
+   "total_cost_usd": 0.03216,
+   "avg_latency_ms": 642.25,
+   "avg_out_tokens": 101.81
+  }
+ },
+ "items": "SH11:.75h SH14:.75h DBT01:.75 KL27:.75 SH24:0o DBT21:.75o DBT27:.75"
+}

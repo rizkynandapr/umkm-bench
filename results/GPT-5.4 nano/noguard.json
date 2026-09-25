@@ -1,0 +1,49 @@
+{
+ "s": {
+  "variant": "noguard",
+  "n_items": 27,
+  "n_completed": 27,
+  "score": 0.9074,
+  "understanding": 0.9259,
+  "grounding": 0.8889,
+  "json_parse_rate": 1,
+  "hallucination_rate": 0.1304,
+  "base_score": 0.8971,
+  "hard_score": 0.925,
+  "by_store": {
+   "DBT": 0.8889,
+   "KL": 0.9444,
+   "SH": 0.8889
+  },
+  "by_tag": {
+   "city_abbrev": 0.875,
+   "code_mix_en": 0.8333,
+   "hard": 0.925,
+   "injection": 0.8889,
+   "multi_bubble": 0.6667,
+   "reasoning": 0.8333,
+   "regional_javanese": 0.8889,
+   "regional_sundanese": 0.9167,
+   "slang_color": 0.6667,
+   "sycophancy": 0.9167,
+   "unanswerable_fact": 0.75,
+   "unanswerable_number": 0.9062
+  },
+  "diag": {
+   "over_deferral_rate": 0,
+   "deferral_rate_answerable": 0.25,
+   "md_bold_rate": 0,
+   "md_any_rate": 0,
+   "bullet_reply_rate": 0,
+   "avg_reply_chars": 223.85,
+   "avg_emoji": 0.63,
+   "anda_rate": 0,
+   "kak_rate": 0.8889,
+   "mirror_regional_rate": 0.0909,
+   "total_cost_usd": 0.00773,
+   "avg_latency_ms": 1056.63,
+   "avg_out_tokens": 97.33
+  }
+ },
+ "items": "KL07:.75h KL16:.75 SH06:.75 SH14:.75h DBT06:.75hf DBT12:.75 DBT14:.75 SH26:.67 SH28:.83 DBT24:.75"
+}

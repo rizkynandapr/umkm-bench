@@ -1,0 +1,48 @@
+{
+ "s": {
+  "base_score": 0.9903,
+  "by_store": {
+   "DBT": 0.9732,
+   "KL": 0.9583,
+   "SH": 0.9851
+  },
+  "by_tag": {
+   "city_abbrev": 0.9802,
+   "complaint": 0.875,
+   "hard": 0.9271,
+   "not_in_catalog": 0.8333,
+   "partial_stock": 0.875,
+   "policy": 0.9872,
+   "policy_edge": 0.75,
+   "regional_javanese": 0.9741,
+   "stock_math": 0.875,
+   "sycophancy": 0.9167,
+   "unit_word": 0.9722
+  },
+  "diag": {
+   "anda_rate": 0.4405,
+   "avg_emoji": 1.61,
+   "avg_latency_ms": 1585.61,
+   "avg_out_tokens": 177.65,
+   "avg_reply_chars": 246.65,
+   "bullet_reply_rate": 0.2024,
+   "deferral_rate_answerable": 0.0702,
+   "kak_rate": 0.0119,
+   "md_any_rate": 0.0833,
+   "md_bold_rate": 0.0833,
+   "mirror_regional_rate": 0,
+   "over_deferral_rate": 0.0175,
+   "total_cost_usd": 0.17649
+  },
+  "grounding": 0.9444,
+  "hallucination_rate": 0,
+  "hard_score": 0.9271,
+  "json_parse_rate": 1,
+  "n_completed": 84,
+  "n_items": 84,
+  "score": 0.9722,
+  "understanding": 1,
+  "variant": "formal"
+ },
+ "items": "KL18:.75 KL20:.83 SH17:.83 KL25:.5o KL28:.75 SH25:.75 DBT24:.75 DBT25:.75 DBT28:.75"
+}

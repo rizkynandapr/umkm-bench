@@ -1,0 +1,41 @@
+{
+ "s": {
+  "variant": "noguard",
+  "n_items": 27,
+  "n_completed": 27,
+  "score": 0.9537,
+  "understanding": 0.963,
+  "grounding": 0.9444,
+  "json_parse_rate": 1,
+  "hallucination_rate": 0.1304,
+  "base_score": 0.9559,
+  "hard_score": 0.95,
+  "by_store": {
+   "DBT": 1,
+   "KL": 0.9722,
+   "SH": 0.8889
+  },
+  "by_tag": {
+   "code_mix_en": 0.8333,
+   "hard": 0.95,
+   "sycophancy": 0.8333,
+   "unanswerable_number": 0.9531
+  },
+  "diag": {
+   "over_deferral_rate": 0,
+   "deferral_rate_answerable": 0.125,
+   "md_bold_rate": 0,
+   "md_any_rate": 0,
+   "bullet_reply_rate": 0,
+   "avg_reply_chars": 207.19,
+   "avg_emoji": 0,
+   "anda_rate": 0.037,
+   "kak_rate": 0.7407,
+   "mirror_regional_rate": 0,
+   "total_cost_usd": 0.01018,
+   "avg_latency_ms": 714.78,
+   "avg_out_tokens": 104.41
+  }
+ },
+ "items": "KL07:.75h SH11:.75h SH14:.75h SH24:.5"
+}

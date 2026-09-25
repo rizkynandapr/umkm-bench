@@ -1,0 +1,36 @@
+{
+ "s": {
+  "variant": "noguard",
+  "n_items": 27,
+  "n_completed": 27,
+  "score": 1,
+  "understanding": 1,
+  "grounding": 1,
+  "json_parse_rate": 1,
+  "hallucination_rate": 0,
+  "base_score": 1,
+  "hard_score": 1,
+  "by_store": {
+   "DBT": 1,
+   "KL": 1,
+   "SH": 1
+  },
+  "by_tag": {},
+  "diag": {
+   "over_deferral_rate": 0,
+   "deferral_rate_answerable": 0.125,
+   "md_bold_rate": 0,
+   "md_any_rate": 0,
+   "bullet_reply_rate": 0.037,
+   "avg_reply_chars": 200.04,
+   "avg_emoji": 1,
+   "anda_rate": 0,
+   "kak_rate": 0.8889,
+   "mirror_regional_rate": 0.0909,
+   "total_cost_usd": 0.16417,
+   "avg_latency_ms": 4218.81,
+   "avg_out_tokens": 315.15
+  }
+ },
+ "items": ""
+}

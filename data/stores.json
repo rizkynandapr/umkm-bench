@@ -1,0 +1,88 @@
+{
+  "KL": {
+    "name": "Kopi Lereng",
+    "location": "Sleman, D.I. Yogyakarta",
+    "catalog_note": "Katalog di bawah adalah daftar LENGKAP produk yang dijual. Semua kopi bisa dipilih biji utuh atau digiling (halus/sedang/kasar) tanpa biaya tambahan.",
+    "catalog": [
+      {"sku": "KL-ARB-250", "name": "Arabika Merapi 250 gr", "price": 85000, "stock": 14},
+      {"sku": "KL-ARB-500", "name": "Arabika Merapi 500 gr", "price": 160000, "stock": 0},
+      {"sku": "KL-ROB-250", "name": "Robusta Temanggung 250 gr", "price": 55000, "stock": 30},
+      {"sku": "KL-ROB-1K", "name": "Robusta Temanggung 1 kg", "price": 200000, "stock": 6},
+      {"sku": "KL-HSE-250", "name": "House Blend 250 gr", "price": 65000, "stock": 20},
+      {"sku": "KL-DRIP-10", "name": "Drip Bag isi 10", "price": 45000, "stock": 50}
+    ],
+    "shipping": [
+      {"city": "Yogyakarta", "cost": 10000, "eta": "same day via kurir lokal (pesan sebelum jam 14.00)"},
+      {"city": "Semarang", "cost": 15000, "eta": "1-2 hari"},
+      {"city": "Surabaya", "cost": 20000, "eta": "2-3 hari"},
+      {"city": "Jakarta", "cost": 22000, "eta": "2-3 hari"},
+      {"city": "Bandung", "cost": 22000, "eta": "2-3 hari"}
+    ],
+    "shipping_note": "Kota lain di luar daftar: ongkir belum tersedia di sistem, harus dicek manual oleh admin.",
+    "policies": [
+      "Pembayaran: transfer BCA atau BRI, dan QRIS.",
+      "COD hanya untuk area Yogyakarta.",
+      "Gratis ongkir area Yogyakarta untuk minimal belanja Rp 150.000.",
+      "Jam operasional: Senin-Sabtu 08.00-20.00 WIB. Hari Minggu libur.",
+      "Paket rusak saat diterima: klaim maksimal 2x24 jam setelah paket diterima, wajib menyertakan video unboxing."
+    ]
+  },
+  "SH": {
+    "name": "Sekar Hijab",
+    "location": "Bandung, Jawa Barat",
+    "catalog_note": "Katalog di bawah adalah daftar LENGKAP produk yang dijual.",
+    "catalog": [
+      {"sku": "SH-PAS-HTM", "name": "Pashmina Ceruty - Hitam", "price": 45000, "stock": 25},
+      {"sku": "SH-PAS-NVY", "name": "Pashmina Ceruty - Navy", "price": 45000, "stock": 0},
+      {"sku": "SH-PAS-MCH", "name": "Pashmina Ceruty - Mocca", "price": 45000, "stock": 8},
+      {"sku": "SH-SEG-ABU", "name": "Segi Empat Voal - Abu-abu", "price": 35000, "stock": 40},
+      {"sku": "SH-SEG-PTH", "name": "Segi Empat Voal - Putih", "price": 35000, "stock": 12},
+      {"sku": "SH-GAM-M", "name": "Gamis Katun Rayon - Ukuran M", "price": 150000, "stock": 5},
+      {"sku": "SH-GAM-L", "name": "Gamis Katun Rayon - Ukuran L", "price": 150000, "stock": 0},
+      {"sku": "SH-GAM-XL", "name": "Gamis Katun Rayon - Ukuran XL", "price": 150000, "stock": 3}
+    ],
+    "shipping": [
+      {"city": "Bandung", "cost": 9000, "eta": "1 hari"},
+      {"city": "Jakarta", "cost": 15000, "eta": "1-2 hari"},
+      {"city": "Yogyakarta", "cost": 20000, "eta": "2-3 hari"},
+      {"city": "Surabaya", "cost": 25000, "eta": "2-4 hari"},
+      {"city": "Medan", "cost": 45000, "eta": "3-5 hari"}
+    ],
+    "shipping_note": "Kota lain di luar daftar: ongkir belum tersedia di sistem, harus dicek manual oleh admin. Belum melayani pengiriman ke luar negeri.",
+    "policies": [
+      "Harga grosir untuk pembelian minimal 1 kodi (20 pcs) produk yang sama: Pashmina Ceruty Rp 38.000/pcs, Segi Empat Voal Rp 29.000/pcs.",
+      "Pembayaran: transfer BCA atau Mandiri, e-wallet DANA atau OVO. Tidak melayani COD.",
+      "Tukar ukuran: maksimal 3 hari setelah barang diterima, label belum dilepas, ongkir tukar ditanggung pembeli.",
+      "Salah kirim barang (warna/ukuran tidak sesuai pesanan): barang yang benar dikirim ulang gratis, ongkir ditanggung toko.",
+      "Jam operasional: setiap hari 09.00-21.00 WIB."
+    ]
+  },
+  "DBT": {
+    "name": "Dapur Bu Tini",
+    "location": "Semarang, Jawa Tengah",
+    "catalog_note": "Katalog di bawah adalah daftar LENGKAP produk yang dijual.",
+    "catalog": [
+      {"sku": "DBT-SMB-BWG", "name": "Sambal Bawang botol 150 ml", "price": 25000, "stock": 60},
+      {"sku": "DBT-SMB-CKL", "name": "Sambal Cumi Asin botol 150 ml", "price": 38000, "stock": 15},
+      {"sku": "DBT-SMB-ROA", "name": "Sambal Roa botol 150 ml", "price": 42000, "stock": 0},
+      {"sku": "DBT-LMP-10", "name": "Lumpia Semarang frozen isi 10", "price": 75000, "stock": 20},
+      {"sku": "DBT-BKS-500", "name": "Bakso Sapi frozen 500 gr", "price": 60000, "stock": 10},
+      {"sku": "DBT-DIM-20", "name": "Dimsum Ayam frozen isi 20", "price": 55000, "stock": 25}
+    ],
+    "shipping": [
+      {"city": "Semarang", "cost": 12000, "eta": "same day via kurir instan (frozen & sambal)"},
+      {"city": "Surakarta", "cost": 30000, "eta": "1 hari, ekspedisi khusus frozen (frozen & sambal)"},
+      {"city": "Yogyakarta", "cost": 30000, "eta": "1 hari, ekspedisi khusus frozen (frozen & sambal)"},
+      {"city": "Jakarta", "cost": 18000, "eta": "2-3 hari (HANYA sambal)"},
+      {"city": "Surabaya", "cost": 16000, "eta": "2 hari (HANYA sambal)"},
+      {"city": "Makassar", "cost": 35000, "eta": "4-6 hari (HANYA sambal)"}
+    ],
+    "shipping_note": "Produk frozen HANYA bisa dikirim ke Semarang, Surakarta (Solo), dan Yogyakarta. Kota lain di luar daftar: ongkir belum tersedia di sistem, harus dicek manual oleh admin.",
+    "policies": [
+      "Pembayaran: transfer BCA, QRIS, dan COD khusus dalam Kota Semarang.",
+      "Jam operasional: setiap hari 07.00-17.00 WIB.",
+      "Lumpia wajib pre-order H-1 (pesan paling lambat sehari sebelumnya).",
+      "Botol sambal pecah/bocor saat diterima: diganti baru, kirim foto atau video paket ke admin."
+    ]
+  }
+}

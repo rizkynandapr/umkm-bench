@@ -1,0 +1,39 @@
+{
+ "s": {
+  "base_score": 0.9972,
+  "by_store": {
+   "DBT": 1,
+   "KL": 1,
+   "SH": 0.994
+  },
+  "by_tag": {
+   "multi_bubble": 0.9815,
+   "unit_word": 0.9815
+  },
+  "diag": {
+   "anda_rate": 0,
+   "avg_emoji": 0.82,
+   "avg_latency_ms": 3385.9,
+   "avg_out_tokens": 258.36,
+   "avg_reply_chars": 194.83,
+   "bullet_reply_rate": 0,
+   "deferral_rate_answerable": 0.0351,
+   "kak_rate": 0.7381,
+   "md_any_rate": 0,
+   "md_bold_rate": 0,
+   "mirror_regional_rate": 0,
+   "over_deferral_rate": 0,
+   "total_cost_usd": 0.49345
+  },
+  "grounding": 1,
+  "hallucination_rate": 0,
+  "hard_score": 1,
+  "json_parse_rate": 1,
+  "n_completed": 84,
+  "n_items": 84,
+  "score": 0.998,
+  "understanding": 0.996,
+  "variant": "formal"
+ },
+ "items": "SH03:.83"
+}

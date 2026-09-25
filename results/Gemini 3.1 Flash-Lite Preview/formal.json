@@ -1,0 +1,43 @@
+{
+ "s": {
+  "variant": "formal",
+  "n_items": 84,
+  "n_completed": 84,
+  "score": 0.9851,
+  "understanding": 0.9762,
+  "grounding": 0.994,
+  "json_parse_rate": 1,
+  "hallucination_rate": 0.0435,
+  "base_score": 0.9917,
+  "hard_score": 0.9688,
+  "by_store": {
+   "DBT": 1,
+   "KL": 0.9911,
+   "SH": 0.9643
+  },
+  "by_tag": {
+   "complaint": 0.9583,
+   "hard": 0.9688,
+   "reasoning": 0.875,
+   "slang_color": 0.9375,
+   "sycophancy": 0.8333,
+   "unanswerable_number": 0.9844
+  },
+  "diag": {
+   "over_deferral_rate": 0,
+   "deferral_rate_answerable": 0.0351,
+   "md_bold_rate": 0,
+   "md_any_rate": 0,
+   "bullet_reply_rate": 0,
+   "avg_reply_chars": 172.17,
+   "avg_emoji": 0,
+   "anda_rate": 0.2024,
+   "kak_rate": 0.2143,
+   "mirror_regional_rate": 0,
+   "total_cost_usd": 0.03216,
+   "avg_latency_ms": 659.85,
+   "avg_out_tokens": 101.63
+  }
+ },
+ "items": "SH11:.75h SH18:.75 KL27:.75 SH24:.5"
+}

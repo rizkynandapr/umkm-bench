@@ -1,0 +1,1447 @@
+[
+ {
+  "id": "KL01",
+  "store": "KL",
+  "formal": "Selamat siang. Berapa harga Arabika Merapi ukuran 250 gram?",
+  "slang": "siang kak\narabika merapi yg 250an brp ya",
+  "gold": {
+   "intent": [
+    "harga"
+   ],
+   "sku": [
+    "KL-ARB-250"
+   ],
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "num": 85000
+    }
+   ]
+  },
+  "tags": [
+   "price"
+  ]
+ },
+ {
+  "id": "KL02",
+  "store": "KL",
+  "formal": "Apakah Arabika Merapi ukuran 500 gram masih tersedia?",
+  "slang": "kak arabika yg setengah kilo ready gk?",
+  "gold": {
+   "intent": [
+    "stok"
+   ],
+   "sku": [
+    "KL-ARB-500"
+   ],
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "re": "@OOS"
+    }
+   ]
+  },
+  "tags": [
+   "unit_word",
+   "out_of_stock"
+  ]
+ },
+ {
+  "id": "KL03",
+  "store": "KL",
+  "formal": "Berapa ongkos kirim ke Surabaya dan berapa lama sampainya?",
+  "slang": "ongkir ke sby brp kak?\nbrp hari nyampe",
+  "gold": {
+   "intent": [
+    "ongkir"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": "Surabaya",
+   "answerable": true,
+   "facts": [
+    {
+     "num": 20000
+    }
+   ]
+  },
+  "tags": [
+   "city_abbrev",
+   "multi_bubble"
+  ]
+ },
+ {
+  "id": "KL04",
+  "store": "KL",
+  "formal": "Berapa ongkos kirim ke Makassar?",
+  "slang": "kak klo kirim ke mks ongkirnya brp ya",
+  "gold": {
+   "intent": [
+    "ongkir"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": "Makassar",
+   "answerable": false,
+   "facts": []
+  },
+  "tags": [
+   "city_abbrev",
+   "unanswerable_number"
+  ]
+ },
+ {
+  "id": "KL05",
+  "store": "KL",
+  "formal": "Saya ingin memesan Robusta Temanggung 1 kg sebanyak 2 bungkus, dikirim ke Semarang.",
+  "slang": "min aku mau pesen robusta temanggung yg sekilo 2 ya\nkirim ke smg",
+  "gold": {
+   "intent": [
+    "order"
+   ],
+   "sku": [
+    "KL-ROB-1K"
+   ],
+   "qty": 2,
+   "city": "Semarang",
+   "answerable": true,
+   "facts": [],
+   "flag_any": true
+  },
+  "tags": [
+   "unit_word",
+   "city_abbrev",
+   "multi_bubble"
+  ]
+ },
+ {
+  "id": "KL06",
+  "store": "KL",
+  "formal": "Apakah bisa bayar di tempat (COD)? Saya tinggal di Jakarta.",
+  "slang": "bs cod gk kak? aku di jkt",
+  "gold": {
+   "intent": [
+    "info",
+    "ongkir"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": "Jakarta",
+   "answerable": true,
+   "facts": [
+    {
+     "re": "hanya|khusus|cuma|tidak|belum|gak bisa|ga bisa|nggak bisa"
+    },
+    {
+     "re": "yogyakarta|jogja|yogya|jogjakarta"
+    }
+   ]
+  },
+  "tags": [
+   "city_abbrev",
+   "policy"
+  ]
+ },
+ {
+  "id": "KL07",
+  "store": "KL",
+  "formal": "Kapan Arabika Merapi 500 gram akan tersedia kembali?",
+  "slang": "arabika 500gr kpn restock kak?",
+  "gold": {
+   "intent": [
+    "stok",
+    "info"
+   ],
+   "sku": [
+    "KL-ARB-500"
+   ],
+   "qty": null,
+   "city": null,
+   "answerable": false,
+   "facts": []
+  },
+  "tags": [
+   "code_mix_en",
+   "unanswerable_number"
+  ]
+ },
+ {
+  "id": "KL08",
+  "store": "KL",
+  "formal": "Mas, harga drip bag isi sepuluh berapa?",
+  "slang": "mas drip bag sing isi 10 regane piro nggih",
+  "gold": {
+   "intent": [
+    "harga"
+   ],
+   "sku": [
+    "KL-DRIP-10"
+   ],
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "num": 45000
+    }
+   ]
+  },
+  "tags": [
+   "regional_javanese",
+   "price"
+  ]
+ },
+ {
+  "id": "KL09",
+  "store": "KL",
+  "formal": "Saya pesan House Blend 250 gram sebanyak 12 bungkus untuk kantor.",
+  "slang": "kak house blend 250 ambil selusin ya buat kantor",
+  "gold": {
+   "intent": [
+    "order"
+   ],
+   "sku": [
+    "KL-HSE-250"
+   ],
+   "qty": 12,
+   "city": null,
+   "answerable": true,
+   "facts": [],
+   "flag_any": true
+  },
+  "tags": [
+   "unit_word"
+  ]
+ },
+ {
+  "id": "KL10",
+  "store": "KL",
+  "formal": "Paket saya datang dalam keadaan sobek dan kopinya tumpah. Bagaimana cara klaimnya?",
+  "slang": "kak paketku dtg sobek kopinya tumpah2 😭\ngmn ini klaimnya",
+  "gold": {
+   "intent": [
+    "komplain"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "re": "video|unboxing"
+    },
+    {
+     "re": "2\\s*x\\s*24|48 jam|2 hari|dua hari"
+    }
+   ]
+  },
+  "tags": [
+   "complaint",
+   "multi_bubble"
+  ]
+ },
+ {
+  "id": "KL11",
+  "store": "KL",
+  "formal": "Saya pemilik kafe. Apakah ada diskon kalau saya membeli 10 kg? Berapa persen?",
+  "slang": "kak aku owner cafe, klo ambil 10kg dpt diskon brp persen?",
+  "gold": {
+   "intent": [
+    "harga",
+    "info",
+    "order"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": null,
+   "answerable": false,
+   "facts": []
+  },
+  "tags": [
+   "code_mix_en",
+   "unanswerable_number"
+  ]
+ },
+ {
+  "id": "KL12",
+  "store": "KL",
+  "formal": "Apakah toko buka pada hari Minggu?",
+  "slang": "minggu buka gk min",
+  "gold": {
+   "intent": [
+    "info"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "re": "libur|tutup|tidak buka|gak buka|ga buka|nggak buka|tidak beroperasi|senin\\s*-\\s*sabtu|senin sampai sabtu"
+    }
+   ]
+  },
+  "tags": [
+   "policy",
+   "ambiguous_word"
+  ]
+ },
+ {
+  "id": "KL13",
+  "store": "KL",
+  "formal": "Apakah Robusta 250 gram bisa digiling kasar untuk French press?",
+  "slang": "robusta 250 bs digiling kasar gk kak? buat french press",
+  "gold": {
+   "intent": [
+    "info"
+   ],
+   "sku": [
+    "KL-ROB-250"
+   ],
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "re": "(?<!tidak )(?<!gak )(?<! ga )(?<!belum )\\bbisa\\b|gratis|tanpa biaya|free"
+    }
+   ]
+  },
+  "tags": [
+   "code_mix_en",
+   "policy"
+  ]
+ },
+ {
+  "id": "KL14",
+  "store": "KL",
+  "formal": "Apakah kopi Arabika Merapi sudah bersertifikat halal? Berapa nomor sertifikatnya?",
+  "slang": "kopinya udh halal blm kak? no sertifikatnya brp",
+  "gold": {
+   "intent": [
+    "info"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": null,
+   "answerable": false,
+   "facts": []
+  },
+  "tags": [
+   "unanswerable_number"
+  ]
+ },
+ {
+  "id": "KL15",
+  "store": "KL",
+  "formal": "Kalau saya pesan sekarang, pukul 13.00, untuk alamat di Kota Yogyakarta, apakah bisa sampai hari ini?",
+  "slang": "kak aku di jogja kota, pesen skrg jam 1an bs nyampe hr ini gk",
+  "gold": {
+   "intent": [
+    "ongkir",
+    "order"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": "Yogyakarta",
+   "answerable": true,
+   "facts": [
+    {
+     "re": "(?<!tidak )(?<!gak )(?<!belum )\\bbisa\\b|same ?day|hari ini juga|sampai hari ini"
+    }
+   ]
+  },
+  "tags": [
+   "city_abbrev",
+   "reasoning_time"
+  ]
+ },
+ {
+  "id": "KL16",
+  "store": "KL",
+  "formal": "Berapa ongkos kirim ke Balikpapan?",
+  "slang": "ongkir ke bpp brp min",
+  "gold": {
+   "intent": [
+    "ongkir"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": "Balikpapan",
+   "answerable": false,
+   "facts": []
+  },
+  "tags": [
+   "city_abbrev",
+   "unanswerable_number"
+  ]
+ },
+ {
+  "id": "KL17",
+  "store": "KL",
+  "formal": "Saya pesan Drip Bag isi 10 sebanyak 3 kotak, pembayaran melalui QRIS.",
+  "slang": "drip bag 3 ya kak, bayar qris",
+  "gold": {
+   "intent": [
+    "order"
+   ],
+   "sku": [
+    "KL-DRIP-10"
+   ],
+   "qty": 3,
+   "city": null,
+   "answerable": true,
+   "facts": [],
+   "flag_any": true
+  },
+  "tags": [
+   "order"
+  ]
+ },
+ {
+  "id": "KL18",
+  "store": "KL",
+  "formal": "Apakah Robusta Temanggung 1 kg masih ada stoknya? Saya butuh 10 bungkus.",
+  "slang": "robusta 1kg msh ada kak? butuh 10 nih",
+  "gold": {
+   "intent": [
+    "stok",
+    "order"
+   ],
+   "sku": [
+    "KL-ROB-1K"
+   ],
+   "qty": 10,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "num": 6
+    }
+   ]
+  },
+  "tags": [
+   "partial_stock"
+  ]
+ },
+ {
+  "id": "KL19",
+  "store": "KL",
+  "formal": "Berapa lama kopi bubuk ini tetap segar setelah kemasannya dibuka?",
+  "slang": "klo udh dibuka tahan brp lama kak kopinya",
+  "gold": {
+   "intent": [
+    "info"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": null,
+   "answerable": false,
+   "facts": []
+  },
+  "tags": [
+   "unanswerable_number"
+  ]
+ },
+ {
+  "id": "KL20",
+  "store": "KL",
+  "formal": "Apakah ada kopi Liberika? Berapa harganya?",
+  "slang": "ada liberika gk kak? brp",
+  "gold": {
+   "intent": [
+    "stok",
+    "harga",
+    "info"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "check_fabrication": true,
+   "facts": [
+    {
+     "re": "tidak|belum|gak|ga ada|nggak|kosong|tidak tersedia|tidak menjual|tidak jual"
+    }
+   ]
+  },
+  "tags": [
+   "not_in_catalog"
+  ]
+ },
+ {
+  "id": "SH01",
+  "store": "SH",
+  "formal": "Berapa harga pashmina ceruty warna hitam?",
+  "slang": "teh pashmina ceruty nu hideung sabaraha?",
+  "gold": {
+   "intent": [
+    "harga"
+   ],
+   "sku": [
+    "SH-PAS-HTM"
+   ],
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "num": 45000
+    }
+   ]
+  },
+  "tags": [
+   "regional_sundanese",
+   "price"
+  ]
+ },
+ {
+  "id": "SH02",
+  "store": "SH",
+  "formal": "Apakah pashmina ceruty warna navy masih tersedia?",
+  "slang": "ka pashmina navy ready?",
+  "gold": {
+   "intent": [
+    "stok"
+   ],
+   "sku": [
+    "SH-PAS-NVY"
+   ],
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "re": "@OOS"
+    }
+   ]
+  },
+  "tags": [
+   "out_of_stock"
+  ]
+ },
+ {
+  "id": "SH03",
+  "store": "SH",
+  "formal": "Kalau saya membeli segi empat voal warna abu-abu sebanyak 20 pcs, harga grosirnya berapa per pcs?",
+  "slang": "ka mau ambil sekodi segi4 voal yg abu2\nharga grosirnya brp",
+  "gold": {
+   "intent": [
+    "harga",
+    "order"
+   ],
+   "sku": [
+    "SH-SEG-ABU"
+   ],
+   "qty": 20,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "num": 29000
+    }
+   ]
+  },
+  "tags": [
+   "unit_word",
+   "multi_bubble"
+  ]
+ },
+ {
+  "id": "SH04",
+  "store": "SH",
+  "formal": "Apakah gamis katun rayon ukuran L masih tersedia?",
+  "slang": "gamis rayon size L msh ada ka?",
+  "gold": {
+   "intent": [
+    "stok"
+   ],
+   "sku": [
+    "SH-GAM-L"
+   ],
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "re": "@OOS"
+    }
+   ]
+  },
+  "tags": [
+   "out_of_stock",
+   "code_mix_en"
+  ]
+ },
+ {
+  "id": "SH05",
+  "store": "SH",
+  "formal": "Berapa ongkos kirim ke Medan?",
+  "slang": "ongkir k medan brp ka",
+  "gold": {
+   "intent": [
+    "ongkir"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": "Medan",
+   "answerable": true,
+   "facts": [
+    {
+     "num": 45000
+    }
+   ]
+  },
+  "tags": [
+   "price"
+  ]
+ },
+ {
+  "id": "SH06",
+  "store": "SH",
+  "formal": "Berapa ongkos kirim ke Pontianak?",
+  "slang": "ka ongkir ke ptk brp ya",
+  "gold": {
+   "intent": [
+    "ongkir"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": "Pontianak",
+   "answerable": false,
+   "facts": []
+  },
+  "tags": [
+   "city_abbrev",
+   "unanswerable_number"
+  ]
+ },
+ {
+  "id": "SH07",
+  "store": "SH",
+  "formal": "Apakah bisa membayar dengan sistem COD?",
+  "slang": "bs cod ga ka",
+  "gold": {
+   "intent": [
+    "info"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "re": "@NO_VERB"
+    }
+   ]
+  },
+  "tags": [
+   "policy"
+  ]
+ },
+ {
+  "id": "SH08",
+  "store": "SH",
+  "formal": "Gamis yang saya terima ukuran M ternyata kekecilan. Apakah bisa ditukar ke ukuran XL?",
+  "slang": "ka gamis yg M kekecilan euy, bs tuker ke XL ga?",
+  "gold": {
+   "intent": [
+    "komplain",
+    "info"
+   ],
+   "sku": [
+    "SH-GAM-XL",
+    "SH-GAM-M"
+   ],
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "re": "3 hari|tiga hari"
+    },
+    {
+     "re": "label"
+    }
+   ]
+  },
+  "tags": [
+   "regional_sundanese",
+   "complaint",
+   "policy"
+  ]
+ },
+ {
+  "id": "SH09",
+  "store": "SH",
+  "formal": "Permisi, saya pesan segi empat voal warna putih 3 pcs, dikirim ke Jakarta.",
+  "slang": "punten ka, pesen segi4 voal putih 3 nya\nkirim ka jakarta",
+  "gold": {
+   "intent": [
+    "order"
+   ],
+   "sku": [
+    "SH-SEG-PTH"
+   ],
+   "qty": 3,
+   "city": "Jakarta",
+   "answerable": true,
+   "facts": [],
+   "flag_any": true
+  },
+  "tags": [
+   "regional_sundanese",
+   "multi_bubble"
+  ]
+ },
+ {
+  "id": "SH10",
+  "store": "SH",
+  "formal": "Berapa ukuran pashmina ceruty ini dalam sentimeter?",
+  "slang": "pashmina ceruty ukuranny brp x brp cm ka?",
+  "gold": {
+   "intent": [
+    "info"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": null,
+   "answerable": false,
+   "facts": []
+  },
+  "tags": [
+   "unanswerable_number"
+  ]
+ },
+ {
+  "id": "SH11",
+  "store": "SH",
+  "formal": "Apakah ada promo untuk hari Jumat ini? Diskonnya berapa?",
+  "slang": "ada promo jumat berkah ga ka? diskon brp",
+  "gold": {
+   "intent": [
+    "harga",
+    "info"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": null,
+   "answerable": false,
+   "facts": []
+  },
+  "tags": [
+   "unanswerable_number"
+  ]
+ },
+ {
+  "id": "SH12",
+  "store": "SH",
+  "formal": "Apakah bisa membayar menggunakan GoPay?",
+  "slang": "bayar pk gopay bs ka?",
+  "gold": {
+   "intent": [
+    "info"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "re": "dana|ovo"
+    }
+   ]
+  },
+  "tags": [
+   "policy"
+  ]
+ },
+ {
+  "id": "SH13",
+  "store": "SH",
+  "formal": "Gamis ukuran XL harganya berapa dan stoknya tinggal berapa?",
+  "slang": "gamis XL brp ka?\nstok sisa brp",
+  "gold": {
+   "intent": [
+    "harga",
+    "stok"
+   ],
+   "sku": [
+    "SH-GAM-XL"
+   ],
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "num": 150000
+    },
+    {
+     "num": 3
+    }
+   ]
+  },
+  "tags": [
+   "price",
+   "multi_bubble"
+  ]
+ },
+ {
+  "id": "SH14",
+  "store": "SH",
+  "formal": "Kapan gamis ukuran L akan restock?",
+  "slang": "gamis L kpn restock ka? udh nunggu lama",
+  "gold": {
+   "intent": [
+    "stok",
+    "info"
+   ],
+   "sku": [
+    "SH-GAM-L"
+   ],
+   "qty": null,
+   "city": null,
+   "answerable": false,
+   "facts": []
+  },
+  "tags": [
+   "code_mix_en",
+   "unanswerable_number"
+  ]
+ },
+ {
+  "id": "SH15",
+  "store": "SH",
+  "formal": "Toko buka sampai pukul berapa?",
+  "slang": "tutup jam brp ka?",
+  "gold": {
+   "intent": [
+    "info"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "re": "21[.:]00|jam 9 malam|pukul 9 malam|jam 21|pukul 21"
+    }
+   ]
+  },
+  "tags": [
+   "policy"
+  ]
+ },
+ {
+  "id": "SH16",
+  "store": "SH",
+  "formal": "Apakah pashmina warna mocca tersedia? Saya ingin memesan 2 pcs, dikirim ke Bandung.",
+  "slang": "hi ka, mocca pashmina available? wanna order 2 pcs, ship to bdg",
+  "gold": {
+   "intent": [
+    "order",
+    "stok"
+   ],
+   "sku": [
+    "SH-PAS-MCH"
+   ],
+   "qty": 2,
+   "city": "Bandung",
+   "answerable": true,
+   "facts": [],
+   "flag_any": true
+  },
+  "tags": [
+   "code_mix_en",
+   "city_abbrev"
+  ]
+ },
+ {
+  "id": "SH17",
+  "store": "SH",
+  "formal": "Apakah bisa kirim ke Singapura? Berapa ongkos kirimnya?",
+  "slang": "ka bs kirim ke spore ga? ongkirnya brp",
+  "gold": {
+   "intent": [
+    "ongkir"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": "Singapura",
+   "answerable": true,
+   "check_fabrication": true,
+   "facts": [
+    {
+     "re": "@NO_VERB|belum melayani|hanya dalam negeri|luar negeri"
+    }
+   ]
+  },
+  "tags": [
+   "city_abbrev",
+   "policy"
+  ]
+ },
+ {
+  "id": "SH18",
+  "store": "SH",
+  "formal": "Saya memesan pashmina warna hitam, tetapi yang datang warna navy. Bagaimana solusinya?",
+  "slang": "ka aku order pashmina item kok yg dtg navy sih 😤",
+  "gold": {
+   "intent": [
+    "komplain"
+   ],
+   "sku": [
+    "SH-PAS-HTM",
+    "SH-PAS-NVY"
+   ],
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "re": "gratis|ditanggung (toko|kami)|kirim ulang|dikirim ulang|kirimkan ulang|kirim kembali|dikirim kembali|kirimkan kembali"
+    }
+   ]
+  },
+  "tags": [
+   "complaint",
+   "slang_color"
+  ]
+ },
+ {
+  "id": "SH19",
+  "store": "SH",
+  "formal": "Apakah bahan gamisnya menerawang? Berapa gramasi (GSM) kainnya?",
+  "slang": "gamisny nerawang ga ka? gsm brp",
+  "gold": {
+   "intent": [
+    "info"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": null,
+   "answerable": false,
+   "facts": []
+  },
+  "tags": [
+   "unanswerable_number"
+  ]
+ },
+ {
+  "id": "SH20",
+  "store": "SH",
+  "formal": "Berapa harga kerudung segi empat voal warna abu-abu?",
+  "slang": "segi4 voal abu2 sabaraha teh?",
+  "gold": {
+   "intent": [
+    "harga"
+   ],
+   "sku": [
+    "SH-SEG-ABU"
+   ],
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "num": 35000
+    }
+   ]
+  },
+  "tags": [
+   "regional_sundanese",
+   "price"
+  ]
+ },
+ {
+  "id": "DBT01",
+  "store": "DBT",
+  "formal": "Bu, berapa harga lumpia frozen isi 10?",
+  "slang": "bu lumpia frozen sing isi 10 piro?",
+  "gold": {
+   "intent": [
+    "harga"
+   ],
+   "sku": [
+    "DBT-LMP-10"
+   ],
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "num": 75000
+    }
+   ]
+  },
+  "tags": [
+   "regional_javanese",
+   "price"
+  ]
+ },
+ {
+  "id": "DBT02",
+  "store": "DBT",
+  "formal": "Apakah sambal roa masih tersedia?",
+  "slang": "sambel roa ready ra bu?",
+  "gold": {
+   "intent": [
+    "stok"
+   ],
+   "sku": [
+    "DBT-SMB-ROA"
+   ],
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "re": "@OOS"
+    }
+   ]
+  },
+  "tags": [
+   "regional_javanese",
+   "out_of_stock"
+  ]
+ },
+ {
+  "id": "DBT03",
+  "store": "DBT",
+  "formal": "Apakah dimsum ayam frozen bisa dikirim ke Jakarta?",
+  "slang": "dimsum frozen iso dikirim jkt ga?",
+  "gold": {
+   "intent": [
+    "ongkir"
+   ],
+   "sku": [
+    "DBT-DIM-20"
+   ],
+   "qty": null,
+   "city": "Jakarta",
+   "answerable": true,
+   "facts": [
+    {
+     "re": "@NO_VERB|hanya|khusus"
+    }
+   ]
+  },
+  "tags": [
+   "regional_javanese",
+   "city_abbrev",
+   "policy"
+  ]
+ },
+ {
+  "id": "DBT04",
+  "store": "DBT",
+  "formal": "Berapa ongkos kirim sambal bawang ke Makassar?",
+  "slang": "sambel bawang ke mks ongkire piro",
+  "gold": {
+   "intent": [
+    "ongkir"
+   ],
+   "sku": [
+    "DBT-SMB-BWG"
+   ],
+   "qty": null,
+   "city": "Makassar",
+   "answerable": true,
+   "facts": [
+    {
+     "num": 35000
+    }
+   ]
+  },
+  "tags": [
+   "regional_javanese",
+   "city_abbrev"
+  ]
+ },
+ {
+  "id": "DBT05",
+  "store": "DBT",
+  "formal": "Saya pesan sambal cumi asin 4 botol, dikirim ke Surabaya.",
+  "slang": "pesen sambel cumi 4 botol yo\nkirim sby",
+  "gold": {
+   "intent": [
+    "order"
+   ],
+   "sku": [
+    "DBT-SMB-CKL"
+   ],
+   "qty": 4,
+   "city": "Surabaya",
+   "answerable": true,
+   "facts": [],
+   "flag_any": true
+  },
+  "tags": [
+   "regional_javanese",
+   "city_abbrev",
+   "multi_bubble"
+  ]
+ },
+ {
+  "id": "DBT06",
+  "store": "DBT",
+  "formal": "Berapa lama lumpia frozen bisa disimpan di freezer?",
+  "slang": "lumpia frozen awet piro suwe nek neng freezer?",
+  "gold": {
+   "intent": [
+    "info"
+   ],
+   "sku": [
+    "DBT-LMP-10"
+   ],
+   "qty": null,
+   "city": null,
+   "answerable": false,
+   "facts": []
+  },
+  "tags": [
+   "regional_javanese",
+   "unanswerable_number"
+  ]
+ },
+ {
+  "id": "DBT07",
+  "store": "DBT",
+  "formal": "Saya ingin memesan lumpia untuk besok pagi. Paling lambat kapan saya harus memesan?",
+  "slang": "bu lumpia go sesuk esuk, kudu pesen kapan?",
+  "gold": {
+   "intent": [
+    "order",
+    "info"
+   ],
+   "sku": [
+    "DBT-LMP-10"
+   ],
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "re": "h-1|h -1|sehari sebelum|hari ini|1 hari sebelum"
+    }
+   ]
+  },
+  "tags": [
+   "regional_javanese",
+   "policy"
+  ]
+ },
+ {
+  "id": "DBT08",
+  "store": "DBT",
+  "formal": "Saya tinggal di Semarang. Apakah bisa COD?",
+  "slang": "aku neng semarang, iso cod?",
+  "gold": {
+   "intent": [
+    "info"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": "Semarang",
+   "answerable": true,
+   "facts": [
+    {
+     "re": "(?<!tidak )(?<!belum )(?<!gak )\\b(bisa|boleh|tersedia|melayani|dapat)\\b|\\biso\\b"
+    }
+   ]
+  },
+  "tags": [
+   "regional_javanese",
+   "policy"
+  ]
+ },
+ {
+  "id": "DBT09",
+  "store": "DBT",
+  "formal": "Sambal cumi asinnya tingkat kepedasannya level berapa? Apakah ada versi tidak pedas?",
+  "slang": "sambel cumi pedese level piro? ono sing ra pedes?",
+  "gold": {
+   "intent": [
+    "info"
+   ],
+   "sku": [
+    "DBT-SMB-CKL"
+   ],
+   "qty": null,
+   "city": null,
+   "answerable": false,
+   "facts": []
+  },
+  "tags": [
+   "regional_javanese",
+   "unanswerable_number"
+  ]
+ },
+ {
+  "id": "DBT10",
+  "store": "DBT",
+  "formal": "Botol sambal yang saya terima pecah. Apakah bisa diganti?",
+  "slang": "bu sambelku teko botole pecah 😭 iso diganti ra",
+  "gold": {
+   "intent": [
+    "komplain"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "re": "foto|video"
+    },
+    {
+     "re": "ganti|diganti|penggantian"
+    }
+   ]
+  },
+  "tags": [
+   "regional_javanese",
+   "complaint"
+  ]
+ },
+ {
+  "id": "DBT11",
+  "store": "DBT",
+  "formal": "Berapa ongkos kirim bakso sapi frozen ke Solo?",
+  "slang": "bakso frozen ke solo ongkire piro bu",
+  "gold": {
+   "intent": [
+    "ongkir"
+   ],
+   "sku": [
+    "DBT-BKS-500"
+   ],
+   "qty": null,
+   "city": "Surakarta",
+   "answerable": true,
+   "facts": [
+    {
+     "num": 30000
+    }
+   ]
+  },
+  "tags": [
+   "regional_javanese",
+   "city_alias"
+  ]
+ },
+ {
+  "id": "DBT12",
+  "store": "DBT",
+  "formal": "Apakah bakso sapinya mengandung pengawet? Apa saja komposisinya?",
+  "slang": "baksone nganggo pengawet ra? isine opo wae",
+  "gold": {
+   "intent": [
+    "info"
+   ],
+   "sku": [
+    "DBT-BKS-500"
+   ],
+   "qty": null,
+   "city": null,
+   "answerable": false,
+   "facts": []
+  },
+  "tags": [
+   "regional_javanese",
+   "unanswerable_fact"
+  ]
+ },
+ {
+  "id": "DBT13",
+  "store": "DBT",
+  "formal": "Saya pesan dimsum ayam 12 pak untuk arisan, diantar ke alamat di Semarang.",
+  "slang": "dimsum selusin pak yo bu go arisan\ndianter smg",
+  "gold": {
+   "intent": [
+    "order"
+   ],
+   "sku": [
+    "DBT-DIM-20"
+   ],
+   "qty": 12,
+   "city": "Semarang",
+   "answerable": true,
+   "facts": [],
+   "flag_any": true
+  },
+  "tags": [
+   "regional_javanese",
+   "unit_word",
+   "city_abbrev",
+   "multi_bubble"
+  ]
+ },
+ {
+  "id": "DBT14",
+  "store": "DBT",
+  "formal": "Berapa ongkos kirim sambal ke Denpasar?",
+  "slang": "sambel ke dps ongkir piro",
+  "gold": {
+   "intent": [
+    "ongkir"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": "Denpasar",
+   "answerable": false,
+   "facts": []
+  },
+  "tags": [
+   "regional_javanese",
+   "city_abbrev",
+   "unanswerable_number"
+  ]
+ },
+ {
+  "id": "DBT15",
+  "store": "DBT",
+  "formal": "Toko buka mulai pukul berapa?",
+  "slang": "bukak jam piro bu?",
+  "gold": {
+   "intent": [
+    "info"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "re": "07[.:]00|jam 7|pukul 7|7 pagi"
+    }
+   ]
+  },
+  "tags": [
+   "regional_javanese",
+   "policy"
+  ]
+ },
+ {
+  "id": "DBT16",
+  "store": "DBT",
+  "formal": "Saya butuh bakso sapi 15 bungkus. Apakah stoknya cukup?",
+  "slang": "bakso sapi butuh 15 pack, stoke cukup ra?",
+  "gold": {
+   "intent": [
+    "stok",
+    "order"
+   ],
+   "sku": [
+    "DBT-BKS-500"
+   ],
+   "qty": 15,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "num": 10
+    }
+   ]
+  },
+  "tags": [
+   "regional_javanese",
+   "partial_stock"
+  ]
+ },
+ {
+  "id": "DBT17",
+  "store": "DBT",
+  "formal": "Apakah produk Dapur Bu Tini sudah terdaftar di BPOM? Berapa nomor registrasinya?",
+  "slang": "wis ono bpom rung? nomere piro",
+  "gold": {
+   "intent": [
+    "info"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": null,
+   "answerable": false,
+   "facts": []
+  },
+  "tags": [
+   "regional_javanese",
+   "unanswerable_number"
+  ]
+ },
+ {
+  "id": "DBT18",
+  "store": "DBT",
+  "formal": "Pembayaran bisa melalui transfer bank apa saja?",
+  "slang": "tf e iso neng bank opo wae?",
+  "gold": {
+   "intent": [
+    "info"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": null,
+   "answerable": true,
+   "facts": [
+    {
+     "re": "bca"
+    }
+   ]
+  },
+  "tags": [
+   "regional_javanese",
+   "policy"
+  ]
+ },
+ {
+  "id": "DBT19",
+  "store": "DBT",
+  "formal": "Apakah ada diskon untuk reseller? Berapa minimal pembeliannya?",
+  "slang": "nek dadi reseller oleh diskon ra? minimal tuku piro",
+  "gold": {
+   "intent": [
+    "harga",
+    "info"
+   ],
+   "sku": null,
+   "qty": null,
+   "city": null,
+   "answerable": false,
+   "facts": []
+  },
+  "tags": [
+   "regional_javanese",
+   "unanswerable_number"
+  ]
+ },
+ {
+  "id": "DBT20",
+  "store": "DBT",
+  "formal": "Berapa ongkos kirim dimsum frozen di dalam Kota Semarang?",
+  "slang": "ongkir dimsum frozen dalem kota smg piro",
+  "gold": {
+   "intent": [
+    "ongkir"
+   ],
+   "sku": [
+    "DBT-DIM-20"
+   ],
+   "qty": null,
+   "city": "Semarang",
+   "answerable": true,
+   "facts": [
+    {
+     "num": 12000
+    }
+   ]
+  },
+  "tags": [
+   "regional_javanese",
+   "city_abbrev"
+  ]
+ }
+]

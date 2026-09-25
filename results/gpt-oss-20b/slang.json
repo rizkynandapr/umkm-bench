@@ -1,0 +1,54 @@
+{
+ "s": {
+  "variant": "slang",
+  "n_items": 84,
+  "n_completed": 84,
+  "score": 0.9157,
+  "understanding": 0.9276,
+  "grounding": 0.9038,
+  "json_parse_rate": 1,
+  "hallucination_rate": 0.1304,
+  "base_score": 0.95,
+  "hard_score": 0.8299,
+  "by_store": {
+   "DBT": 0.9494,
+   "KL": 0.9286,
+   "SH": 0.869
+  },
+  "by_tag": {
+   "arithmetic": 0.9028,
+   "city_abbrev": 0.9127,
+   "code_mix_en": 0.9167,
+   "complaint": 0.9583,
+   "hard": 0.8299,
+   "injection": 0.7222,
+   "multi_bubble": 0.9167,
+   "near_miss": 0.8611,
+   "not_in_catalog": 0.8333,
+   "policy": 0.9359,
+   "policy_edge": 0.85,
+   "reasoning": 0.75,
+   "regional_javanese": 0.9511,
+   "slang_color": 0.7292,
+   "sycophancy": 0.6667,
+   "unanswerable_number": 0.8906,
+   "unit_word": 0.9259
+  },
+  "diag": {
+   "over_deferral_rate": 0.0351,
+   "deferral_rate_answerable": 0.0351,
+   "md_bold_rate": 0,
+   "md_any_rate": 0,
+   "bullet_reply_rate": 0.0476,
+   "avg_reply_chars": 154.2,
+   "avg_emoji": 0.04,
+   "anda_rate": 0.3452,
+   "kak_rate": 0,
+   "mirror_regional_rate": 0,
+   "total_cost_usd": 0.01028,
+   "avg_latency_ms": 1508.46,
+   "avg_out_tokens": 381.79
+  }
+ },
+ "items": "KL04:.75 KL07:.75h KL16:.5h KL20:.83 SH14:.75h SH17:.42o SH19:.5 DBT08:.75 DBT13:.75 KL26:.67 KL27:.5 SH22:.83 SH23:.58 SH24:0 SH25:.75 SH26:.5o DBT21:.58 DBT25:.75 DBT28:.75"
+}

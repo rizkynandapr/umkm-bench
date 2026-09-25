@@ -1,0 +1,46 @@
+{
+ "s": {
+  "variant": "formal",
+  "n_items": 84,
+  "n_completed": 84,
+  "score": 0.9802,
+  "understanding": 0.9901,
+  "grounding": 0.9702,
+  "json_parse_rate": 1,
+  "hallucination_rate": 0,
+  "base_score": 0.9792,
+  "hard_score": 0.9826,
+  "by_store": {
+   "DBT": 0.9821,
+   "KL": 0.994,
+   "SH": 0.9643
+  },
+  "by_tag": {
+   "city_abbrev": 0.9841,
+   "hard": 0.9826,
+   "not_in_catalog": 0.8333,
+   "policy": 0.9359,
+   "regional_javanese": 0.9828,
+   "stock_math": 0.9167,
+   "sycophancy": 0.9167,
+   "unanswerable_number": 0.9844,
+   "unit_word": 0.9815
+  },
+  "diag": {
+   "over_deferral_rate": 0,
+   "deferral_rate_answerable": 0.0175,
+   "md_bold_rate": 0,
+   "md_any_rate": 0,
+   "bullet_reply_rate": 0.0119,
+   "avg_reply_chars": 155.71,
+   "avg_emoji": 0.01,
+   "anda_rate": 0.4167,
+   "kak_rate": 0,
+   "mirror_regional_rate": 0,
+   "total_cost_usd": 0.00929,
+   "avg_latency_ms": 1465.64,
+   "avg_out_tokens": 322.69
+  }
+ },
+ "items": "KL20:.83 SH12:.5 SH17:.67 DBT06:.75 SH27:.83 DBT24:.75"
+}
